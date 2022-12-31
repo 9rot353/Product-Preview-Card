@@ -1,17 +1,28 @@
-*{
+* {
     margin :0px;
 }
 
 body{
-background-color:antiquewhite
+background-color:antiquewhite;
+text-align:center;
 }
 
 
 .product {
     margin: 2rem;
-    border-radius: 100px;
+    padding-bottom: 1.5rem;
+    border-radius:10px;
     display:grid;
-    
+    background-color: hsl(0, 0%, 100%);
+    text-align: left;
+    max-width: 600px;
+
+}
+
+.product__content {
+    display:grid;
+    gap: 1rem;
+    padding:1rem;
 }
 
 .product__image {
@@ -19,27 +30,49 @@ background-color:antiquewhite
 }
 
 /*imported fonts*/
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Noto+Sans:wght@100&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 .product__category {
-font-family: 'Noto Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-size:12px;
+font-weight:400;
+color: hsl(228, 12%, 48%);
+letter-spacing: 5px;
 }
 
+.product__title {
+    font-family: 'Fraunces', 
+}
+
+
 .product__description {
-font-family: 'Noto Sans', sans-serif;
-font-size: 14px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%)
 }
 
 .flex-group {
-
+display:flex;
+flex-direction: row;
+gap: 1.75rem;
 }
 
 .original-price{
-    
+    position:relative;
+    top:5px;
 }
 
 .current-price {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Fraunces';
+    font-size: 1.5rem;
+    color:hsl(158, 36%, 37%);
 }
 
+.button {
+    background-color:hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    font-family:'Montserrat', sans-serif;
+    border-radius: 5px;
+    height: 3rem;
+}
