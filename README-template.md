@@ -45,11 +45,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-Create elements around is corresponding content.
-Create a css flexbox in row.
-Center content to middle of the page for desktop.
-Create media quieries for Mobile and desktop.
-
+Create the appropriate boxed within the Html file. 
+Set up flex box for image and content
+set up flex box for orginal price and current price
+prepare fonts and colors for css file.
+complete css for  mobile view
+complete css for desktop view.
 ### Built with
 
 - Semantic HTML5 markup
