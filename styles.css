@@ -1,9 +1,45 @@
-body {
-    background-color:red;
-    padding:0px;
+*{
+    margin :0px;
+}
+
+body{
+background-color:antiquewhite
 }
 
 
-.flex-box {
-    width: 100%;
+.product {
+    margin: 2rem;
+    border-radius: 100px;
+    display:grid;
+    
 }
+
+.product__image {
+ width: 100%;
+}
+
+/*imported fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Noto+Sans:wght@100&family=Shadows+Into+Light&display=swap');
+
+.product__category {
+font-family: 'Noto Sans', sans-serif;
+}
+
+.product__description {
+font-family: 'Noto Sans', sans-serif;
+font-size: 14px;
+}
+
+.flex-group {
+
+}
+
+.original-price{
+    
+}
+
+.current-price {
+    font-family: 'Shadows Into Light', cursive;
+}
+
