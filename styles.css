@@ -15,25 +15,36 @@ text-align:center;
     padding-bottom: 1.5rem;
     border-radius:10px;
     display:grid;
-    background-color: hsl(0, 0%, 100%);
+    
     text-align:left;
     max-width: 600px;
-    min-width: 400px;
+    width: auto;
+    min-width: 375px;
     margin:auto;
+}
 
+@media (min-width: 1440px) { 
+    .product {
+        display: flex;
+        flex-direction: row;
+    }
+   
 }
 
 .product__content {
     display:grid;
     justify-content: center;
+    background-color: hsl(0, 0%, 100%);
     gap: 1rem;
     padding:1.5rem;
     flex-wrap: wrap;
     width:70%;
     margin:auto;
+    border:solid black 3px;
 }
 
 .product__image {
+border: 2px solid black;
  width: 100%;
  border-top-right-radius: 10px;
  border-radius: 10px 10px 0px 0px
