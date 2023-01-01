@@ -6,49 +6,56 @@
 
 body{
 background-color:antiquewhite;
-text-align:center;
 }
 
 
 .product {
     margin: 2rem;
     padding-bottom: 1.5rem;
-    border-radius:10px;
-    display:grid;
-    
-    text-align:left;
-    max-width: 600px;
-    width: auto;
-    min-width: 375px;
+    display:flex;
+    flex-direction:column;
+    max-width:375px;
+    padding-top: 30px;
     margin:auto;
 }
 
+
 @media (min-width: 1440px) { 
-    .product {
-        display: flex;
-        flex-direction: row;
-    }
+
    
+    .product {
+    display:flex;
+    flex-direction: row;
+    height:100vh;
+    align-items:center;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 10px;
+    }
+    
+
 }
 
 .product__content {
-    display:grid;
-    justify-content: center;
+    display:flex;
+    flex-direction: column;
     background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 0px 10px 10px;
     gap: 1rem;
     padding:1.5rem;
-    flex-wrap: wrap;
-    width:70%;
+    width:inherit;
     margin:auto;
-    border:solid black 3px;
 }
 
+
 .product__image {
-border: 2px solid black;
- width: 100%;
- border-top-right-radius: 10px;
- border-radius: 10px 10px 0px 0px
+max-width:375px;
+border-top-right-radius: 10px;
+border-radius: 10px 10px 0px 0px;
+position:relative;
+top:5px;
 }
+
 
 /*imported fonts*/
 
@@ -101,4 +108,5 @@ gap: 1.75rem;
 
 .attribution{
     margin: 11px;
+    justify-content: center;
 }
