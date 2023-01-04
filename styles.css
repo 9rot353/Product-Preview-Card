@@ -106,11 +106,11 @@ gap: 1.75rem;
     height: 3rem;
 }
 
-/* .svg-icon {
+.svg-icon {
    position: relative;
    top: 3px;
    right: 7px;
-} */
+}
 .attribution{
     margin: 11px;
     justify-content: center;
