@@ -80,6 +80,8 @@ letter-spacing: 5px;
     color: hsl(228, 12%, 48%)
 }
 
+
+
 .flex-group {
 display:flex;
 flex-direction: row;
@@ -104,12 +106,12 @@ gap: 1.75rem;
     font-family:'Montserrat', sans-serif;
     border-radius: 5px;
     height: 3rem;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
-.botton:hover {
+.botton.hover {
     background-color:hsl(158, 36%, 10%);
-    color:red;
-    cursor:pointer;
 }
 
 .svg-icon {
@@ -154,6 +156,5 @@ gap: 1.75rem;
     .product__content {
         border-radius: 0px 10px 10px 0px;
         min-height: 383px;
-
     }
 }
