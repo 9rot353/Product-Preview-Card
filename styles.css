@@ -106,6 +106,12 @@ gap: 1.75rem;
     height: 3rem;
 }
 
+.botton:hover {
+    background-color:hsl(158, 36%, 10%);
+    color:red;
+    cursor:pointer;
+}
+
 .svg-icon {
    position: relative;
    top: 3px;
@@ -126,7 +132,6 @@ gap: 1.75rem;
     height:100vh;
     align-items:center;
     justify-content: center;
-    border: solid black 2px;
     border-radius: 10px;
 
     }
